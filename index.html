@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Cihan Erenler personal website. I am a jonior front-end developer">
+    <meta name="keywords" content="Cihan Erenler, HTML, CSS, Javascript, React">
+    <meta name="author" content="Cihan Erenler">
+    <title>Cihan Erenler | Personal Website</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css" integrity="sha384-vp86vTRFVJgpjF9jiIGPEEqYqlDwgyBgEF109VFjmqGmIY/Y4HV4d3Gp2irVfcrp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
+<body id="home">
+    <header class="hero">
+        <nav class="navbar">
+            <div class="container">
+                <h1 class="logo"><a class="primary" href="#home">CE</a></h1>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#abt">About</a></li>
+                    <li><a href="#cntc">Contact</a></li>
+                </ul>
+            </div>
+        </nav>
+
+        <div class="landing">
+            <div class="container">
+                <div class="content">
+                    <h1> <span class="primary">Hi!</span> I'm Cihan Erenler</h1>
+                    <h3>I'm A Junior Front-end <span class="primary">Developer</span> </h3>
+                    <a class="btn" href="#cntc">Contact Me</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section id="abt" class="about py-90">
+            
+            <div class="container">
+                <div class="about-wrapper">
+                    <div>
+                        <div class="pic-wrapper">
+                            <img src="img/pf-2.jpg" alt="Cihan Erenler">
+                        </div>
+                    </div>
+                    <div class="about-content">
+                        <div>
+                            <h1 class="primary">Hey,</h1>
+                            <p>
+                                I am a entry level front-end developer who currently a  first year IT student in Finland. I've graduated as an art teacher from my prior education which I had the chance to improve my graphic design skills.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="social">
+                    <a href="https://www.facebook.com/c.erenler/"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://twitter.com/cihanerenlerr"><i class="fab fa-twitter"></i></a>
+                    <a href="https://www.instagram.com/cihanerenler/"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/in/cihanerenler/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fas fa-code-branch"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section class="skills">
+            <h1 class="primary">Skills</h1>
+            <div class="container">
+                <div class="skills-row">
+                    <div class="card">
+                        <i class="fas fa-code html"></i>
+                    </div>
+                    <div class="card">
+                        <i class="fab fa-js-square js"></i>
+                    </div>
+                    <div class="card">
+                        <i class="fab fa-react react"></i>
+                    </div>
+                    <div class="card">
+                        <i class="fab fa-node-js node"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <div class="paralax"></div> -->
+
+        <section id="cntc" class="contact py-70">
+            <div class="container">
+                <h1 class="primary">Contact Me</h1>
+                <form  class="contact-form">
+                    <input type="text" id="form-name" placeholder="Your name">
+                    <input type="text" id="form-email" placeholder="Your email">
+                    <textarea id="form-message" placeholder="Your message"></textarea>
+                    <button type="submit" class="btn">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <footer class="main-footer"">
+        <h3>CE</h3>
+    </footer>
+
+    <script src="js/app.js"></script>
+</body>
+</html>

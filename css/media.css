@@ -1,0 +1,75 @@
+/* @media only screen and (max-width : 750px){
+    .navbar{
+        position: static;
+    }
+
+    .navbar ul{
+        display: none;
+    }
+
+    .navbar .container{
+        justify-content: center;
+    }
+
+    .landing > .container .content{
+        flex-direction: column-reverse;
+    }
+
+    .landing > .container .content .content-1{
+        align-items: center;
+        text-align: center;
+    }
+
+    .landing > .container .content .content-1 h1{
+        font-size: 50px;
+    }
+
+    .landing > .container .content .content-1 .btn{
+        width: 100%;
+        margin: 10px;
+    }
+
+    .landing > .container .content .content-2{
+        justify-content: center;
+    }
+
+    .landing > .container .content .content-2 > div{
+        width: 300px;
+    }
+
+    .landing > .container .content .content-2 .pic-wrapper{
+        width: 200px;
+        height: 200px;
+        margin: auto;
+    }
+    .landing > .container .content .content-2 .pic-wrapper img{
+        width: 200px;
+        height: 200px;
+        border-radius: 200px;
+    }
+
+
+    .card{
+        margin: 20px 5px;
+        width: 100%;
+        text-align: center;
+    }
+
+    .about{
+        height: auto;
+        text-align: center;
+    }
+
+    .about p{
+        width: 100%;
+    }
+
+    .about .about-row{
+        position: static;
+        flex-direction: column;
+    }
+
+    .contact h1{
+        font-size: 50px;
+    }
+} */
